@@ -14,10 +14,12 @@ if ! command -v wget &> /dev/null; then
     exit 1
 fi
 
-# 필요한 패키지 설치
-brew install glow
+# glow가 설치되어 있지 않은 경우에만 설치
+if ! command -v glow &> /dev/null; then
+    brew install glow
+fi
 
-wget -q -O /opt/homebrew/bin/clap http://3.139.193.147:8020/cheatsheet.sh
+wget -q -O /opt/homebrew/bin/clap https://clap-cheat-sheet.vercel.app/cheatsheet.sh
 
 chmod +x /opt/homebrew/bin/clap
 

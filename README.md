@@ -23,7 +23,7 @@ brew install wget
 ## Install
 
 ```bash
-wget -q -O - http://3.139.193.147:8020/install.sh | bash
+wget -q -O - https://clap-cheat-sheet.vercel.app/install.sh | bash
 ```
 
 이미지 추가

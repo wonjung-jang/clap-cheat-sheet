@@ -2,7 +2,7 @@
 
 command=$1
 
-BASE_URL="http://3.139.193.147:8020"
+BASE_URL="https://clap-cheat-sheet.vercel.app"
 
 # 커맨드가 없으면 welcome 메세지 출력
 if [ -z "$command" ]; then
