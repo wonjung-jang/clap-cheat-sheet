@@ -18,7 +18,7 @@ brew install wget
 
 ## Demo
 
-이미지 추가
+![2025-07-08 22 23 06](https://github.com/user-attachments/assets/9a86b004-e309-436e-a080-4b6c7e425b56)
 
 ## Install
 
@@ -26,7 +26,7 @@ brew install wget
 wget -q -O - https://clap-cheat-sheet.vercel.app/install.sh | bash
 ```
 
-이미지 추가
+![2025-07-08 22 28 19](https://github.com/user-attachments/assets/9f26ac49-7d6b-497b-81a2-84321853e4a1)
 
 ## Usage
 
@@ -40,7 +40,7 @@ wget -q -O - https://clap-cheat-sheet.vercel.app/install.sh | bash
 clap list
 ```
 
-이미지 추가
+![2025-07-08 22 24 53](https://github.com/user-attachments/assets/236ca02a-1b49-4f9e-96a2-d7a44b011edb)
 
 ### [keyword]
 
@@ -50,7 +50,7 @@ clap list
 clap docker
 ```
 
-이미지 추가
+![2025-07-08 22 25 32](https://github.com/user-attachments/assets/a77cc3a7-823e-4ec7-859a-3691378810aa)
 
 ## Update
 
@@ -58,7 +58,7 @@ clap docker
 clap update
 ```
 
-이미지 추가
+![2025-07-08 22 26 13](https://github.com/user-attachments/assets/05a77595-2c5c-433e-ace5-feb887f270ad)
 
 ## Uninstall
 
@@ -66,7 +66,7 @@ clap update
 clap uninstall
 ```
 
-이미지 추가
+![2025-07-08 22 26 41](https://github.com/user-attachments/assets/f8885172-6ed0-4e0e-a073-042d3f2fecc4)
 
 ## Custom
 
