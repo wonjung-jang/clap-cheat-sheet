@@ -1,4 +1,4 @@
-# [아직 배포 전] clap-cheat-sheet
+# clap-cheat-sheet
 
 터미널 내에서 미리 지정해둔 문서를 불러올 수 있는 커맨드입니다. [glow](https://github.com/charmbracelet/glow) 를 통해 Terminal 에서 markdown View를 지원합니다.
 
