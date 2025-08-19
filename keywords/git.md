@@ -33,6 +33,8 @@ git push origin --delete [브랜치명]  # 원격 브랜치 삭제
 
 ```bash
 git push origin [브랜치명]  # 변경사항 원격에 푸시
+git push --force-with-lease  # 안전한 강제 푸시 (권장)
+git push --force  # 강제 푸시 (주의!)
 git pull origin [브랜치명]  # 원격 변경사항 가져오기
 ```
 
@@ -50,11 +52,14 @@ git log  # 전체 커밋 이력
 git log --oneline  # 한 줄로 간단히 보기
 ```
 
-# 변경사항 되돌리기
+# 변경사항 되돌리기 (Reset)
 
 ```bash
-git reset --hard HEAD^  # 직전 커밋으로 되돌리기
-git reset --soft HEAD^  # 커밋만 취소 (변경사항 유지)
+git reset --soft HEAD^  # 커밋만 취소, 변경사항은 스테이징 영역에 유지
+git reset --mixed HEAD^  # 커밋과 스테이징 취소, 작업 디렉토리는 유지 (기본값)
+git reset --hard HEAD^  # 커밋, 스테이징, 작업 디렉토리 모두 되돌리기 (주의!)
+git reset --soft HEAD~3  # 최근 3개 커밋을 취소하고 변경사항 유지
+git reset [파일명]  # 특정 파일의 스테이징 취소
 ```
 
 # 원격 저장소 관리
